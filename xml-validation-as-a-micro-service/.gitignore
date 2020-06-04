@@ -1,0 +1,11 @@
+.history/
+.mvn/
+.idea/
+target
+*.iml
+.classpath
+.factorypath
+.project
+.settings
+application.log*
+src/main/uploads/*

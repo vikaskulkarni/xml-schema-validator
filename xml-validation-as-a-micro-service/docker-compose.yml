@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  xml-validation-as-a-micro-service:
+    container_name: xml-validation-as-a-micro-service
+    image: xml-validation-as-a-micro-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8081:8081

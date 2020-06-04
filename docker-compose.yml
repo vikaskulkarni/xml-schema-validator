@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  xml-validation-as-a-micro-service:
+    container_name: xml-validation-as-a-micro-service
+    image: xml-validation-as-a-micro-service
+    build:
+      context: ./xml-validation-as-a-micro-service
+      dockerfile: Dockerfile
+    ports:
+      - 8081:8081
+  xml-validate-react-ui:
+    container_name: xml-validate-react-ui
+    image: xml-validate-react-ui
+    build:
+      context: ./xml-validate-react-ui
+      dockerfile: Dockerfile
+    ports:
+      - 8082:80

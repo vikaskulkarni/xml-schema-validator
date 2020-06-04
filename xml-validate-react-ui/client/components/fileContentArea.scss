@@ -1,0 +1,141 @@
+#paper {
+  color: #fff;
+  font-size: 20px;
+}
+
+.status-style {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #333;
+  font-family: Courier, monospace;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.3rem;
+  padding-left: 80px;
+
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-image: url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+  -webkit-box-shadow: 0px 2px 5px #000;
+  box-shadow: 0px 2px 5px #000;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+
+  textarea {
+    resize: none;
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+
+  .ip-style {
+    border-top: 2px solid #bd7189;
+    border-bottom: 2px solid #bd7189;
+    margin-right: 1%;
+    margin-top: 1rem;
+  }
+
+  a {
+    position: absolute;
+    right: 1%;
+    top: 0;
+    font-size: 1rem;
+  }
+
+  .copy-icon {
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+    cursor: pointer;
+    color: #616161;
+  }
+
+  .copy-icon:hover {
+    color: #000000;
+  }
+}
+
+.status-id {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-weight: bold;
+  max-width: 80px;
+  overflow: hidden;
+  font-size: 80%;
+  color: #bd7189;
+}
+
+.status-title {
+  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 90px;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: Courier, monospace;
+  font-weight: bold;
+}
+
+.status-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.status-title a:hover {
+  border-bottom: 3px solid #444;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.block-ellipsis {
+  display: block;
+  /* Fallback for non-webkit */
+  display: -webkit-box;
+  /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+
+  overflow: auto;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.rownr {
+  text-align: left;
+  padding-right: 5px;
+  background: transparent;
+  width: 5%;
+  vertical-align: top;
+  color: #616161;
+  overflow-y: hidden;
+}
+.txt {
+  width: 94%;
+  margin-right: 1%;
+}
+
+#sel_in {
+  border-style: none;
+  outline: none;
+  font-size: 1rem;
+  color: #616161;
+  background: transparent;
+}
